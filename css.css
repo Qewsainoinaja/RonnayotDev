@@ -220,6 +220,11 @@ ul.skill-content{
         flex-direction: column;
         align-items: center;
     }
+    .skill-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
    
     
     }
@@ -264,6 +269,11 @@ ul.contact-content{
 }
 @media(max-width:1000px){
     .contact-content li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-content{
         display: flex;
         flex-direction: column;
         align-items: center;
