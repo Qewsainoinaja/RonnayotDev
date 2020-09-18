@@ -125,6 +125,7 @@ section{
     }
     .top-area h3{
         font-size: 20px;
+        display: flex;
     }
 }
 mark{
