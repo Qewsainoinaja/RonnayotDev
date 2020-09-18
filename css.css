@@ -216,6 +216,9 @@ ul.skill-content{
     .skill-content li{
         flex-basis: 100%;
         margin-bottom: 65px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
    
     
@@ -258,6 +261,13 @@ ul.contact-content{
 .contact-content li h4{
     font-size: 30px;
     margin-bottom: 25px;
+}
+@media(max-width:1000px){
+    .contact-content li{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
 /* footer */
 
